@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+imageio
+torch
+torchvision
+tqdm
+ipykernel
+notebook

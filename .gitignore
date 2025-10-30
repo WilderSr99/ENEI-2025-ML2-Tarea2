@@ -1,0 +1,45 @@
+# ==========================================
+# ENTORNOS Y DEPENDENCIAS
+# ==========================================
+.venv/
+env/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# ==========================================
+# NOTEBOOKS Y TEMPORALES
+# ==========================================
+.ipynb_checkpoints/
+*.log
+*.tmp
+*.bak
+.DS_Store
+
+# ==========================================
+# DATOS, MODELOS Y RESULTADOS
+# ==========================================
+data/
+report/figuras/
+report/resultados/
+*.pt
+*.pth
+*.npy
+*.npz
+*.csv
+
+# ==========================================
+# CONFIGURACIÓN LOCAL / EDITORES
+# ==========================================
+.vscode/
+.idea/
+*.code-workspace
+
+# ==========================================
+# OTROS ARCHIVOS A IGNORAR
+# ==========================================
+# Archivos del sistema
+Thumbs.db
