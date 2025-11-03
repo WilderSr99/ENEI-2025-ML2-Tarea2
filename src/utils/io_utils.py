@@ -29,9 +29,19 @@ def load_faces(txt_path):
         for line in f:
             parts = line.strip().split()
             img_path, label = parts[0], int(parts[1])
-            img = imageio.imread(str(img_path))
+
+            # 🔧 Ajuste automático de rutas (tu dataset usa ./images/ en vez de ./faces/images/)
+            img_path = img_path.replace("faces/", "images/")
+
+            # Construir ruta completa (relativa al archivo train.txt o test.txt)
+            img_full = txt_path.parent / img_path
+
+            # Leer imagen
+            img = imageio.imread(str(img_full))
+
             X.append(img.reshape(-1))
             y.append(label)
+
     X = np.array(X, dtype=float)
     y = np.array(y, dtype=int)
     return X, y

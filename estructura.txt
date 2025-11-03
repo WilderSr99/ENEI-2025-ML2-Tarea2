@@ -1,0 +1,24 @@
+ENEI-2025-ML2-Tarea2/
+│
+├── data/                          # Carpeta para datos e imágenes
+│   ├── train.txt
+│   ├── test.txt
+│   └── (imágenes *.pgm o *.png)
+│
+├── src/                           # Códigos fuente y notebooks principales
+│   ├── ParteI_Eigenfaces.ipynb
+│   ├── ParteII_NeuralNetworks.ipynb
+│   └── utils/
+│       ├── io_utils.py            # Lectura de datos e imágenes
+│       ├── pca_utils.py           # Cálculo de PCA, visualizaciones
+│       ├── metrics_utils.py       # Accuracy, Frobenius loss
+│       └── nn_utils.py            # Entrenamiento PyTorch (loops, plots)
+│
+├── report/
+│   ├── figuras/                   # Gráficos generados (eigenfaces, curvas)
+│   └── resultados/                # Tablas CSV, logs, métricas
+│
+├── requirements.txt
+├── .gitignore
+├── README.md
+└── venv/  (entorno virtual)
