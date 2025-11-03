@@ -32,11 +32,11 @@
 - **Parte II:** `src/ParteII_NeuralNetworks.ipynb`  
   - Entrenamiento de redes neuronales en el dataset **MNIST** usando **PyTorch**.  
   - Modelos implementados:
-    1. **MLP (Multilayer Perceptron)** — capas densas `784→256→128→10`.  
+    1. **MLP (Multilayer Perceptron)** - capas densas `784→256→128→10`.  
        - Accuracy final ≈ **0.9805**  
-    2. **CNN básica** — 2 convoluciones + MaxPooling.  
+    2. **CNN básica** - 2 convoluciones + MaxPooling.  
        - Accuracy final ≈ **0.9869**  
-    3. **CNN mejorada** — con **BatchNorm** y **Dropout**.  
+    3. **CNN mejorada** - con **BatchNorm** y **Dropout**.  
        - Accuracy final ≈ **0.9924**  
   - Funciones auxiliares utilizadas:  
     - `utils/nn_utils.py` → Entrenamiento, evaluación y curvas.  
