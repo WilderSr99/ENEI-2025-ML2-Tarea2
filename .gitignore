@@ -19,17 +19,6 @@ __pycache__/
 *.bak
 .DS_Store
 
-# ==========================================
-# DATOS, MODELOS Y RESULTADOS
-# ==========================================
-data/
-report/figuras/
-report/resultados/
-*.pt
-*.pth
-*.npy
-*.npz
-*.csv
 
 # ==========================================
 # CONFIGURACIÓN LOCAL / EDITORES

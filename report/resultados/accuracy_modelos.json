@@ -1,0 +1,5 @@
+{
+    "MLP": 0.9805,
+    "CNN_Basica": 0.9869,
+    "CNN_Mejorada": 0.9924
+}

@@ -4,9 +4,9 @@
 -------------------
 ## Integrantes del grupo
 
-	- Buleje Ticse, Jean Carlos
-	- Rosales Chuco, Noel Ivan
-	- Sebastian Rios, Wilder Teddy
+- *Buleje Ticse, Jean Carlos*
+- *Rosales Chuco, Noel Ivan*
+- *Sebastian Rios, Wilder Teddy*
 
 ## Estructura del proyecto
 
